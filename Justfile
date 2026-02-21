@@ -1,5 +1,5 @@
 PROFILE := "glinet_gl-mt6000"
-PACKAGES := "map luci adguardhome"
+PACKAGES := "map luci adguardhome wireguard-tools luci-proto-wireguard qrencode"
 FILES := "../files"
 # DISABLED_SERVICES := "dnsmasq"
 
