@@ -1,20 +1,8 @@
-# Homelab OpenWRT
-This is my current repo for building my OpenWRT images for my GL-Net Flint 2 router, only packages and simple custom configs are added, the rest of the configuration is made with the [LuCI](https://github.com/openwrt/luci/wiki)
+## Homelab-OpenWRT (Archived)
 
-## Installation
-```bash
-git clone https://github.com/Hovirix/homelab-openwrt.git
-cd homelab-openwrt
-nix develop
-just build
-```
-then flash the image on the router
+This project has been merged into my main homelab repository to simplify maintenance and centralize everything in one place.
 
-## Tasks
+All development and updates now live here:
+[https://github.com/Hovirix/homelab](https://github.com/Hovirix/homelab)
 
-- [ ] Setup Wireguard
-- [ ] Setup VLAN & Segmentation
-- [ ] Firewall Policy (fine-tuned)
-- [ ] DMZ Setup
-- [ ] Monitoring & Observability
-- [ ] Security Hardening
+This repository is archived and kept for reference only.
